@@ -1,0 +1,83 @@
+//== Notes on the modulator function from _Laws of Form_
+:author: naipmoro
+:revnumber: v0.1
+:revdate: 2020-Jun-23
+:source-highlighter: highlight.js
+:source-language: clojure
+:imagesdir: img
+:stem: latexmath
+:xrefstyle: short
+//:sectnums:
+
+== A five-node modulator circuit
+
+George Spencer-Brown <<SB>>[p.68] and Luis H. Kauffman <<LK>>[pp. 121--123]
+have demonstrated six-node modulators, and the question arises whether that
+could be reduced further.
+
+[#fivenode]
+.A five-node modulator
+image::fivenode.svg[]
+
+Figure 1 depicts a sequential logic circuit where each node is a NOR gate.
+
+Input *_A_* is a wave of alternating 1s and 0s (true and false values under
+the usual interpretation).  The output appears at node *_m3_* as a doubling of
+the input's wavelength (or halving of its frequency), hence the "modulator"
+designation.  For example, an input of 1010... will produce outputs such as
+11001100... or 10011001..., depending on the phase shift.
+
+Node values are propagated in sequence from earlier to later nodes,
+beginning with *_m0_*.  Where a node's value depends on nodes that are later
+in the sequence, we interpret that as requiring the _previous_ values of those
+nodes.  Consequently, we need to assign initial values to *_m1_*, *_m2_*,
+*_m3_*, and *_m4_* before the modulator begins to run.
+
+The following table shows one such assignment in column *t~0~* (time zero).
+Notice that column *t~5~* is a repeat of *t~1~*, demonstrating that columns
+*t~1~* through *t~4~* (inclusive) will repeat indefinitely.
+
+.A running modulator with input 1010...
+[%autowidth]
+|===
+| id | sources   | t~0~ | t~1~ | t~2~ | t~3~ | t~4~ | t~5~
+
+| [blue]#*A*#   |   --     |   | [blue]#*1*# | [blue]#*0*# | [blue]#*1*#
+                           |  [blue]#*0*# | [blue]#*1*#
+| m0 | (A,1,4) |   | 0 | 0 | 0 | 1 | 0
+| m1 | (A,0,2) | _1_ | 0 | 1 | 0 | 0 | 0
+| m2 | (0,1,3) | _1_ | 0 | 0 | 1 | 0 | 0
+| [red]#*m3*# | (1,2)   | _1_ | [red]#*1*# | [red]#*0*# | [red]#*0*# | [red]#*1*# | [red]#*1*#
+| m4 | (0,1,2) | _1_ | 1 | 0 | 0 | 0 | 1
+|===
+
+The next example shows an input of 111000..., where *t~13~* is a repeat of *t~1~*
+(a valid repeat must occur at the _same point of the input wave's cycle_).
+
+.A running modulator with input 111000...
+[%autowidth]
+|===
+| id  | sources | t~0~ | t~1~ | t~2~ | t~3~ | t~4~ | t~5~ | t~6~ | t~7~ | t~8~ | t~9~ | t~10~ | t~11~ | t~12~ | t~13~
+
+| [blue]#*A*#  |   --     |   | [blue]#*1*# | [blue]#*1*# | [blue]#*1*# | [blue]#*0*#
+                              | [blue]#*0*# | [blue]#*0*# | [blue]#*1*# | [blue]#*1*#
+                              | [blue]#*1*# | [blue]#*0*#  | [blue]#*0*#  | [blue]#*0*#  | [blue]#*1*#
+| m0  | (A,1,4) |   | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1  | 1  | 1  | 0
+| m1  | (A,0,2) | _1_ | 0 | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 0 | 0  | 0  | 0  | 0
+| m2  | (0 1 3)  | _1_ | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 0  | 0  | 0  | 0
+| [red]#*m3*#  | (1 2)    | _1_ | [red]#*1*# | [red]#*1*# | [red]#*1*# | [red]#*0*#
+                                | [red]#*0*# | [red]#*0*# | [red]#*0*# | [red]#*0*#
+                                | [red]#*0*# | [red]#*1*#  | [red]#*1*#  | [red]#*1*#  | [red]#*1*#
+| m4  | (0 1 2)  | _1_ | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0  | 0  | 0  | 1
+|===
+
+This page is a modified excerpt from a work in progress <<NM>>.
+
+[bibliography]
+=== References
+
+- [[[SB]]] Spencer-Brown, George (1969) _Laws of Form_ (Allen & Unworn,
+  London).
+- [[[LK]]] Kauffman, Luis H. (c. 2005) _Laws of Form -- An Exploration in Mathematics and Foundations. Rough Draft_,
+Unpublished, http://www.math.uic.edu/~kauffman/Laws.pdf
+- [[[NM]]] Moro, Naip (2020) _Notes on the modulator function from Laws of Form_, Work in Progress.

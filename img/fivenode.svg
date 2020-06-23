@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg4212"
+   viewBox="0 0 576.66729 212.5572"
+   height="265.85602"
+   width="720.83411">
+  <metadata
+     id="metadata4342">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4340">
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4528"
+       style="overflow:visible">
+      <path
+         id="path4293"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5072"
+       style="overflow:visible">
+      <path
+         id="path5074"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4757"
+       style="overflow:visible">
+      <path
+         id="path4759"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4252" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutL"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(0.8,0.8)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path4373" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4234" />
+    </marker>
+  </defs>
+  <g
+     transform="translate(299.33798,23.593995)"
+     class="graph"
+     id="graph0">
+    <title
+       id="title4215">modulator1</title>
+    <polygon
+       style="fill:#ffffff;stroke:none"
+       transform="matrix(1,0,0,1.0640358,2.7001217,-0.19648699)"
+       id="polygon4217"
+       points="-202,177.885 -202,177.885 -202,-22 202,-22 202,177.885 " />
+    <!-- 0 -->
+    <g
+       style="stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none"
+       class="node"
+       id="node1"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4220">0</title>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none"
+         r="18"
+         id="ellipse4222"
+         cy="-2.1316301e-14"
+         cx="-180" />
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none"
+         id="text4224"
+         font-size="14.00"
+         y="3.7"
+         x="-180">m0</text>
+    </g>
+    <!-- 1 -->
+    <g
+       style="stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none"
+       class="node"
+       id="node2"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4227">1</title>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none"
+         r="18"
+         id="ellipse4229"
+         cy="155.88499"
+         cx="-180" />
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none"
+         id="text4231"
+         font-size="14.00"
+         y="159.58501"
+         x="-180">m1</text>
+    </g>
+    <!-- 0&#45;&gt;1 -->
+    <g
+       class="edge"
+       id="edge2"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4234">0-&gt;1</title>
+      <path
+         style="fill:none;stroke:#000000"
+         id="path4236"
+         d="m -175.537,17.5789 c 2.734,26.8982 3.017,78.5097 0.848,110.5141" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon4238"
+         points="-175.519,138.131 -178.183,127.876 -171.207,128.453 -171.207,128.453 " />
+    </g>
+    <!-- 4 -->
+    <g
+       class="node"
+       id="node3"
+       style="stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4241">4</title>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none"
+         r="18"
+         id="ellipse4243"
+         cy="0"
+         cx="0" />
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none"
+         id="text4245"
+         font-size="14.00"
+         y="3.7"
+         x="0">m4</text>
+    </g>
+    <!-- 0&#45;&gt;4 -->
+    <g
+       class="edge"
+       id="edge7"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4248">0-&gt;4</title>
+      <path
+         style="fill:none;stroke:#000000"
+         id="path4250"
+         d="m -162.413,-4.21123 c 31.32,-3.07878 96.9867,-3.35732 134.5217,-0.83563" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon4252"
+         points="-17.6583,-4.21824 -27.9082,-1.53686 -27.3431,-8.51402 -27.3431,-8.51402 " />
+    </g>
+    <!-- 2 -->
+    <g
+       class="node"
+       id="node4"
+       style="stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4255">2</title>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none"
+         r="18"
+         id="ellipse4257"
+         cy="155.88499"
+         cx="0" />
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none"
+         id="text4259"
+         font-size="14.00"
+         y="159.58501"
+         x="0">m2</text>
+    </g>
+    <!-- 0&#45;&gt;2 -->
+    <g
+       class="edge"
+       id="edge8"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4262">0-&gt;2</title>
+      <path
+         style="fill:none;stroke:#000000"
+         id="path4264"
+         d="m -166.175,11.9732 c 31.226,27.0425 107.3903,93.0028 144.7696,125.3738" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon4266"
+         points="-13.6261,144.084 -23.4767,140.183 -18.8941,134.892 -18.8941,134.892 " />
+    </g>
+    <!-- 1&#45;&gt;0 -->
+    <g
+       class="edge"
+       id="edge6"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4269">1-&gt;0</title>
+      <path
+         style="fill:none;stroke:#000000"
+         id="path4271"
+         d="m -184.463,138.306 c -2.734,-26.899 -3.017,-78.51 -0.848,-110.5142" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon4273"
+         points="-184.481,17.7539 -181.817,28.0082 -188.793,27.4316 -188.793,27.4316 " />
+    </g>
+    <!-- 1&#45;&gt;4 -->
+    <g
+       class="edge"
+       id="edge11"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4276">1-&gt;4</title>
+      <path
+         style="fill:none;stroke:#000000"
+         id="path4278"
+         d="M -166.175,143.911 C -134.949,116.869 -58.7847,50.9091 -21.4054,18.5376" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon4280"
+         points="-13.6261,11.8006 -18.8941,20.9929 -23.4767,15.7014 -23.4767,15.7014 " />
+    </g>
+    <!-- 1&#45;&gt;2 -->
+    <g
+       class="edge"
+       id="edge3"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4283">1-&gt;2</title>
+      <path
+         style="fill:none;stroke:#000000"
+         id="path4285"
+         d="m -162.413,151.673 c 31.32,-3.078 96.9867,-3.357 134.5217,-0.835" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon4287"
+         points="-17.6583,151.666 -27.9082,154.348 -27.3431,147.371 -27.3431,147.371 " />
+    </g>
+    <!-- 3 -->
+    <g
+       style="stroke-width:2.4000001;stroke-miterlimit:4;stroke-dasharray:none"
+       class="node"
+       id="node5"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4290">3</title>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         r="18"
+         id="ellipse4292"
+         cy="155.88499"
+         cx="180" />
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;stroke-width:2.4000001;stroke-miterlimit:4;stroke-dasharray:none"
+         id="text4294"
+         font-size="14.00"
+         y="159.58501"
+         x="180">m3</text>
+    </g>
+    <!-- 1&#45;&gt;3 -->
+    <!-- 4&#45;&gt;0 -->
+    <g
+       class="edge"
+       id="edge1"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4304">4-&gt;0</title>
+      <path
+         style="fill:none;stroke:#000000"
+         id="path4306"
+         d="M -17.5869,4.21123 C -48.907,7.29001 -114.574,7.56855 -152.109,5.04686" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon4308"
+         points="-162.342,4.21824 -152.092,1.53686 -152.657,8.51402 -152.657,8.51402 " />
+    </g>
+    <!-- 2&#45;&gt;1 -->
+    <g
+       class="edge"
+       id="edge9"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4311">2-&gt;1</title>
+      <path
+         style="fill:none;stroke:#000000"
+         id="path4313"
+         d="m -17.5869,160.096 c -31.3201,3.079 -96.9871,3.357 -134.5221,0.835" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon4315"
+         points="-162.342,160.103 -152.092,157.421 -152.657,164.399 -152.657,164.399 " />
+    </g>
+    <!-- 2&#45;&gt;4 -->
+    <g
+       class="edge"
+       id="edge12"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4318">2-&gt;4</title>
+      <path
+         style="fill:none;stroke:#000000"
+         id="path4320"
+         d="M 0,137.698 C 0,110.828 0,60.2809 0,28.4715" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon4322"
+         points="0,18.0712 3.5001,28.0712 -3.4999,28.0712 -3.4999,28.0712 " />
+    </g>
+    <!-- 2&#45;&gt;3 -->
+    <g
+       class="edge"
+       id="edge4"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4325">2-&gt;3</title>
+      <path
+         style="fill:none;stroke:#000000"
+         id="path4327"
+         d="m 17.5869,151.673 c 31.3201,-3.078 96.9871,-3.357 134.5221,-0.835" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon4329"
+         points="162.342,151.666 152.092,154.348 152.657,147.371 152.657,147.371 " />
+    </g>
+    <!-- 3&#45;&gt;2 -->
+    <g
+       class="edge"
+       id="edge5"
+       transform="translate(2.9808973,0)">
+      <title
+         id="title4332">3-&gt;2</title>
+      <path
+         style="fill:none;stroke:#000000"
+         id="path4334"
+         d="m 162.413,160.096 c -31.32,3.079 -96.9867,3.357 -134.5217,0.835" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon4336"
+         points="17.6583,160.103 27.9082,157.421 27.3431,164.399 27.3431,164.399 " />
+    </g>
+    <path
+       id="path5281"
+       d="m -167.19074,171.08536 c 17.88947,7.53743 39.02824,6.64961 58.66556,8.92313 37.590597,2.67365 75.337581,3.72371 113.0620256,4.55401"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path5283"
+       d="M 170.43684,170.40135 C 117.10883,184.71752 59.786823,182.09566 4.3101471,184.56038"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path5357"
+       d="m 159.73426,169.12792 1.3557,0.16947 c 0,0 0,0 9.6594,0.33892 -7.28692,7.11745 -7.28692,7.11745 -7.28692,7.11745 l 0,0 c -3.89765,-7.45638 -3.72818,-7.62584 -3.72818,-7.62584 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       id="text4221"
+       y="83.61097"
+       x="-294.08295"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="83.61097"
+         x="-294.08295"
+         id="tspan4223">A</tspan></text>
+    <path
+       id="path4225"
+       d="M -280.72685,70.859168 -193.97103,9.5276064"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.06789708;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+    <path
+       id="path4889"
+       d="m -281.00623,86.708246 87.80702,57.634214"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5072)" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.02373528;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4528)"
+       d="m 201.79597,156.6192 c 34.01951,0 34.01951,0 34.01951,0"
+       id="path3436" />
+    <text
+       id="text4221-4"
+       y="162.87279"
+       x="239.77733"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="162.87279"
+         x="239.77733"
+         id="tspan4223-6">OUT</tspan></text>
+  </g>
+</svg>
